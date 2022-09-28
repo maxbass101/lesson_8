@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="icon" href="img/favicon.ico">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lesson_8</title>
+</head>
+
+<body>
+   <header></header>
+   <main>
+      <div class="game">
+         <div class="game__container">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+            <div class="block5"></div>
+            <div class="block6"></div>
+            <div class="block7"></div>
+            <a href="#chapter" class="block8">Псевдокласи</a>
+         </div>
+      </div>
+      <div class="page">
+         <div class="page__container">
+            <div class="page__about">
+               <div class="page__title">
+                  <h2>About the course</h2>
+               </div>
+               <div class="page__text">
+                  <p>
+                     Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in sagittis,
+                     felis
+                     maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero est
+                     tempus
+                     sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim montes, pretium, egestas
+                     molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc tincidunt
+                     tortor,
+                     mi nulla pellentesque
+                  </p>
+               </div>
+               <div class="page__subtitle">
+                  You will learn:
+               </div>
+               <div class="page__list-fermentum">
+                  <ul>
+                     <li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+                     <li>Vulputate placerat amet pulvinar lorem nisl.</li>
+                     <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+                     <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+                     <li>Fringilla in nec risus congue venenatis pretium posuere nec.</li>
+                     <li>Cursus eu pretium, vulputate tempus quam massa sed at.</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="page__curator">
+               <div class="page__title-upper">
+                  <h3>Course curator</h3>
+               </div>
+               <div class="page__title">
+                  <h2>Cody Fisher</h2>
+               </div>
+               <div class="page__position">
+                  Senior UX designer in IT Product Company
+               </div>
+               <div class="page__list-rate">
+                  <ul>
+                     <li>4.9 rate</li>
+                     <li>4 courses</li>
+                     <li>350 students</li>
+                  </ul>
+               </div>
+               <div class="page__text">
+                  <p>
+                     Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate
+                     venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit
+                     morbi
+                     odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra.
+                     Ac
+                     commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique
+                     sollicitudin interdum quam.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="chapter" class="chapter">
+         <div class="chapter__container">
+            <h2>Псевдокласи</h2>
+            <h3>Псевдокласи стану</h3>
+            <div>
+               <span class="red-h">:hover</span> -
+               звернення до елемента у стані "при наведенні миші",
+               застосовується до будь-якого елемента
+            </div>
+            <div>
+               <a href="#" class="link1">:active</a> - звернення до елемента у стані
+               "при натиснутій клавіші миші"
+            </div>
+            <div>
+               <a href="#" class="link2">:visited</a> - звернення до елемента
+               у стані "відвіданого посилання"
+               обмежена кількість вастивостей
+            </div>
+            <div>
+               <a href="#" class="link3">:focus</a> - звернення до
+               елементу у стані "фокусу"
+            </div>
+            <h3>Псевдокласи положення у коді</h3>
+            <div>
+               <p>
+                  <span class="red">:not(:last-child)</span>
+                  - для усіх li окрім останього (якщо список)
+               </p>
+               <ul class="list1">
+                  <li>перший li</li>
+                  <li>другий li</li>
+                  <li>третiй li</li>
+                  <li>четвертий li</li>
+                  <li>для усіх li окрім останього</li>
+               </ul>
+            </div>
+            <div>
+               <p>
+                  <span class="red">:first-child</span>
+                  - звернення до першого елементу в коді
+               </p>
+               <ul class="list2">
+                  <li>перший li</li>
+                  <li>другий li</li>
+                  <li>третiй li</li>
+                  <li>четвертий li</li>
+               </ul>
+            </div>
+            <div>
+               <p>
+                  <span class="red">:nth-child(порядковий номер елементу)</span>
+                  - звернення до конкретного елементу в коді
+               </p>
+               <ul class="list3">
+                  <li>перший li</li>
+                  <li>другий li</li>
+                  <li>третiй li</li>
+                  <li>четвертий li</li>
+               </ul>
+            </div>
+            <div>
+               <p>
+                  <span class="red">:nth-child(odd)</span>
+                  - звернення до конкретного елементу в коді
+               </p>
+               <ul class="list4">
+                  <li>перший li</li>
+                  <li>другий li</li>
+                  <li>третiй li</li>
+                  <li>четвертий li</li>
+               </ul>
+            </div>
+            <div>
+               <p>
+                  <span class="red">:nth-child(even)</span>
+                  - звернення до конкретного елементу в коді
+               </p>
+               <ul class="list5">
+                  <li>перший li</li>
+                  <li>другий li</li>
+                  <li>третiй li</li>
+                  <li>четвертий li</li>
+               </ul>
+            </div>
+            <div>
+               <div>
+                  <span class="red">:target</span>
+                  - звернення до елемента у стані
+                  "ефекту від посилання з іншого об'єкту"
+               </div>
+               <div class="tabs">
+                  <nav class="tabs__items">
+                     <a href="#tab_01" class="tabs__item"> <span>Перша вкладка</span></a>
+                     <a href="#tab_02" class="tabs__item"> <span>Друга вкладка</span></a>
+                     <a href="#tab_03" class="tabs__item"> <span>Третя вкладка</span></a>
+                  </nav>
+                  <div class="tabs__body">
+                     <div id="tab_01" class="tabs__block">
+                        Перша вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure officia quasi
+                        tempore
+                        molestias, natus voluptatem rerum, saepe ea quibusdam nobis unde error ut sapiente ullam,
+                        dolorem
+                        temporibus corporis deserunt quia.
+                     </div>
+                     <div id="tab_02" class="tabs__block">
+                        Друга вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure officia quasi
+                        tempore
+                        molestias, natus voluptatem rerum, saepe ea quibusdam nobis unde error ut sapiente ullam,
+                        dolorem
+                        temporibus corporis deserunt quia.
+                     </div>
+                     <div id="tab_03" class="tabs__block">
+                        Третя вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure officia quasi
+                        tempore
+                        molestias, natus voluptatem rerum, saepe ea quibusdam nobis unde error ut sapiente ullam,
+                        dolorem
+                        temporibus corporis deserunt quia.
+                     </div>
+                  </div>
+               </div>
+               <h2>Псевдоелементи</h2>
+               <span class="red">::before</span>
+               <div class="element-before">я блочний елемент</div>
+               <span class="red">::after</span>
+               <div>
+                  <span class="element-after">я рядковий елемент</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import "null.css";
+
+.page {
+   font-family: "Lato";
+   color: #424551;
+   background: url('../img/circles.png')  225px 630px no-repeat;
+   padding: 120px 0px 44px 0px;
+}
+.page__container {
+   max-width: 1230px;
+   margin: 0px auto;
+}
+.page__about {
+   margin-bottom: 114px;
+}
+.page__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.page__text {
+   line-height: 160%;
+   margin-bottom: 48px;
+}
+.page__subtitle {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.page__list-fermentum {
+   line-height: 160%;
+}
+.page__list-fermentum li {
+   padding-left: 32px;
+   background: url('../img/icons/check.png') 0 5px no-repeat;
+}
+.page__list-fermentum li:not(:last-child),
+.page__list-rate li:not(:last-child) {
+   margin-bottom: 4px;
+}
+.page__about >*:last-child {
+	margin-bottom: 0px;
+}
+.page__curator >*:last-child{
+   margin-bottom: 0px;
+}
+.page__curator .page__title {
+   margin-bottom: 16px;
+}
+.page__title-upper {
+   font-weight: 700;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+   margin-bottom: 8px;
+}
+.page__position {
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 32px;
+}
+.page__list-rate {
+   font-weight: 700;
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 32px;
+}
+.page__list-rate li:nth-child(1) {
+   background: url('../img/icons/star.png') 0 6px no-repeat;
+}
+.page__list-rate li:nth-child(2) {
+   background: url('../img/icons/play.png') 0 6px no-repeat;
+}
+.page__list-rate li:nth-child(3) {
+   background: url('../img/icons/profile.png') 0 6px no-repeat;
+}
+.page__list-rate li {
+   padding-left: 25px;
+}
+
+.game {
+}
+.game__container {
+   width: 800px;
+   margin: 0 auto;
+}
+.block1 {
+   width: 50px;
+   height: 50px;
+   background-color: grey;
+}
+.block2 {
+   width: 550px;
+   height: 40px;
+   background-color: red;
+   visibility: hidden;
+}
+.block1:hover + .block2 {
+   visibility: visible;
+}
+.block2:hover {
+   visibility: visible;
+}
+.block3 {
+   width: 30px;
+   height: 40px;
+   margin-left: 520px;
+   background-color: green;
+   visibility: hidden;
+}
+.block2:hover + .block3 {
+   visibility: visible;
+}
+.block3:hover {
+   visibility: visible;
+}
+.block4 {
+   width: 300px;
+   height: 20px;
+   margin-left: 250px;
+   background-color: blue;
+   visibility: hidden;
+}
+.block3:hover + .block4 {
+   visibility: visible;
+}
+.block4:hover {
+   visibility: visible;
+}
+.block5 {
+   width: 20px;
+   height: 20px;
+   margin-left: 250px;
+   background-color: orangered;
+   visibility: hidden;
+}
+.block4:hover + .block5 {
+   visibility: visible;
+}
+.block5:hover {
+   visibility: visible;
+}
+.block6 {
+   width: 100px;
+   height: 15px;
+   margin-left: 250px;
+   background-color: blueviolet;
+   visibility: hidden;
+}
+.block5:hover + .block6 {
+   visibility: visible;
+}
+.block6:hover {
+   visibility: visible;
+}
+.block7 {
+   width: 10px;
+   height: 50px;
+   margin-left: 340px;
+   background-color: aqua;
+   visibility: hidden;
+}
+.block6:hover + .block7 {
+   visibility: visible;
+}
+.block7:hover {
+   visibility: visible;
+}
+.block8 {
+   font-size: 30px;
+   margin-left: 200px;
+   background-color: yellow;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid blue;
+   visibility: hidden;
+}
+.block7:hover + .block8 {
+   visibility: visible;
+}
+.block8:hover {
+   color:aqua;
+   visibility: visible;
+}
+.block8:active {
+   background-color: #fff;
+}
+
+.chapter__container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+.red-h,
+.red {
+   font-family: 'Courier New', Courier, monospace;
+   color: red; 
+}
+.red-h:hover {
+   color: #000;
+   background-color: yellow;
+}
+.link3,
+.link2,
+.link1 {
+   color: red;
+   font-family: 'Courier New', Courier, monospace;
+}
+.link1:active {
+   color: aqua;
+   background-color: #000;
+}
+.link2:visited {
+   color: #424551;
+}
+.link3:focus {
+   outline: 3px solid aqua;
+}
+.list1 li:not(:last-child) {
+   color: blue;
+}
+.list2 li:first-child {
+   color: blue;
+}
+.tabs {
+   height: 160px;
+   background-color: #333;
+   color: #fff;
+   position: relative;
+}
+.tabs__items {
+   display: flex;
+}
+.tabs__item {
+   flex: 0 1 33.333%;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+}
+.tabs__item span {
+   position: relative;
+   z-index: 2;
+}
+.tabs__body {
+}
+.tabs__block {
+   position: relative;
+   padding: 20px;
+   font-size: 18px;
+   line-height: 24px;
+   display: none;
+}
+.tabs__block::before {
+   content: '';
+   height: 50px;
+   width: 33.333%;
+   position: absolute;
+   top: -50px;
+}
+.tabs__block:nth-child(1) {
+   background-color: #eb8698;
+}
+.tabs__block:nth-child(1)::before {
+   background-color: #eb8698;
+   left: 0;
+}
+.tabs__block:nth-child(2) {
+   background-color: #9278aa;
+}
+.tabs__block:nth-child(2)::before {
+   background-color: #9278aa;
+   left: 33.333%;
+}
+.tabs__block:nth-child(3) {
+   background-color: #97c67d;
+}
+.tabs__block:nth-child(3)::before {
+   background-color: #97c67d;
+   right: 0;
+}
+.list3 li:nth-child(2){
+   color: blue;
+}
+.list4 li:nth-child(odd){
+   color: blue;
+}
+.list5 li:nth-child(even){
+   color: blue;
+}
+.tabs__block:target {
+   display: block;
+}
+
+.element-before {
+   color: #fff;
+   background-color: #000;
+}
+.element-before::before {
+   display: block;
+   content: 'before display: block;';
+   background-color: red;
+}
+/* .element-before {
+   position: relative;
+   width: 50px;
+   height: 50px;
+   background-color: #000;
+   margin-top: 25px;
+}
+.element-before::before {
+   position: absolute;
+   top: -25px;
+   display: block;
+   content: '';
+   width: 0;
+   height: 0;
+   border-left: 25px solid transparent;
+   border-right: 25px solid transparent;
+   border-bottom: 25px solid red;
+} */
+.element-after {
+   color: #fff;
+   width: 50px;
+   height: 50px;
+   background-color: #000;
+}
+.element-after::after {
+   content: 'after';
+   background-color: red;
+   margin-left: 5px;
+}
+.chapter h2 {
+   font-size: 35px;
+   font-weight: 700;
+}
+.chapter h3 {
+   font-size: 20px;
+   font-weight: 700;
+}
+.chapter * ul {
+   padding-left: 10px;
+}
